@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Rubik:wght@300&family=Shizuru&display=swap");
+
+/* Regras Gerais */
+* {
+  font-family: "Rubik", sans-serif;
+}
+
+/* Regras NAVBAR */
+.navbar {
+  background-color: #2b2b2b;
+}
+.navbar-brand {
+  margin-left: 100px;
+}
+.position-fixed{
+  z-index: 1020;
+  width:100%;
+}
+.docs {
+  margin-inline-start: 450px;
+}
+.versao {
+  background: #7c7c7c;
+  font-weight: bold;
+  font-size: 12px;
+  color: #ffff;
+  padding: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 4px;
+}
+.compre-agora {
+  margin-inline-start: 5px;
+  background: #02b875;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.nav-link{
+  font-size: 18px;
+}
+.compre-agora:hover{
+  background: #048858;
+}
+.topic {
+  margin-top: 4px;
+  font-weight: bold;
+}
+.sub {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.component {
+  color: #8a8a8a;
+}
+
+/* Regras Conteudo1 + Carrosel */
+.bg-gradient {
+  background: rgb(91, 64, 212);
+  color: #fff;
+}
+.overflow-hidden {
+  overflow: hidden !important;
+}
+.titulo1 {
+  font-size: 52px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.conteudo1 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.compre-agora2 {
+  text-decoration: none;
+  background: #02b875;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffff;
+  border-radius: 5px;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.compre-agora2:hover{
+  color: #ffff;
+  background: #048858;
+}
+.explorar {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffff;
+  margin-left: 20px;
+}
+.explorar:hover{
+  color: #cdcdcd
+}
+.seta {
+  margin-left: 5px;
+}
+.caixa-carrossel{
+  padding-top:150px;
+  padding-bottom: 150px;
+}
+.carousel{
+  width: 500px;
+}
+.d-block{
+  border-radius: 8px;
+}
+
+/* Regras Cards */
+.boxes {
+  background-color: #f3f3f3;
+  padding-bottom: 100px;
+}
+.intro {
+  text-align: center;
+  padding-top: 100px;
+}
+.conheca {
+  color: #a7a4a4;
+  font-weight: bold;
+  font-size: 15px;
+}
+.titulo2 {
+  font-size: 54px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+.conteudo2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4b4b4b;
+  margin-bottom: 50px;
+}
+
+/* Regras Box-Card */
+.cartao {
+  margin-top: 50px;
+}
+.card-title {
+  font-weight: bold;
+}
+.link-explorar {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Regras Conteudo 3 */
+.intro2 {
+  color: #a7a4a4;
+  font-weight: bold;
+  font-size: 15px;
+}
+.titulo3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-top: 25px;
+}
+.conteudo3 {
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.bg-white {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.img-fluid {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+/* Regras Conteudo 4 */
+.titulo4 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2b2b2b;
+  margin-top: 25px;
+}
+.conteudo4 {
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+/* Regras Depoimento */
+.gradiente {
+  background: linear-gradient(135deg, #6f42c1 0%, #4582ec 100%);
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.depoiment {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -12px;
+  margin-left: 12px;
+  padding-top: 70px;
+}
+.depoimento-text {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+.sign {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 70px;
+}
+.foto {
+  display: flex;
+  align-items: flex-start;
+}
+.avatar {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+/* Regras Widgets */
+.bg-gray {
+  background: #f3f3f3;
+}
+.intro5 {
+  color: #a7a4a4;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 70px;
+}
+.titulo5 {
+  font-size: 54px;
+  font-weight: bold;
+  color: #2b2b2b;
+  padding-top: 30px;
+  margin-bottom: 25px;
+}
+.conteudo5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #7a7a7a;
+  margin-bottom: 100px;
+}
+.cartela {
+  text-decoration: none;
+  margin: 5px;
+}
+.subCard {
+  font-weight: bold;
+  color: #2b2b2b;
+}
+.contCard {
+  font-weight: bold;
+  color: #7a7a7a;
+}
+.detalhes {
+  padding-top: 50px;
+  font-size: 15px;
+}
+.peso {
+  font-weight: bold;
+}
+.espaco {
+  padding-bottom: 80px;
+}
+/* Regras Compre Agora */
+.col {
+  padding-bottom: 50px;
+}
+.facaAgora {
+  color: #fff;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.compre-agora3 {
+  text-decoration: none;
+  background: #ffffff38;
+  font-weight: bold;
+  font-size: 16px;
+  color: #ffff;
+  border-radius: 8px;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.compre-agora3:hover{
+  background: #ffff;
+}
+
+/* Regras FOOTER */
+.bg-darkgray{
+  background-color: #2b2b2b;
+  padding-top: 60px;
+}
+.title-foot{
+  font-weight: bold;
+  font-size: 20px;
+}
+.no-gutters{
+  padding-top: 50px;
+}
+.topic-foot{
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size:16px;
+}
+li a{
+  text-decoration: none;
+  color: #cdcdcd;
+  font-size: 14px;
+}
+li a:hover{
+  color: #ffff;
+}
+.list-unstyled{
+  padding-bottom: 100px;
+}

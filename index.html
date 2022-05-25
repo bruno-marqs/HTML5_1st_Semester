@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Avaliação Final</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="/_images/logo-white.svg" alt="Wingman">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Overview</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Pages
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">
+                  <h6 class="topic">Landing Pages</h6>
+                  <p class="sub">Showcase your products in style</p>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <h6 class="topic">App Pages</h6>
+                  <p class="sub">Build detailed, functions web apps</p>
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <h6 class="topic">Inner Pages</h6>
+                  <p class="sub">Complete your online presence</p>
+                </a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Components
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item component" href="#">Bootstrap</a></li>
+              <li><a class="dropdown-item component" href="#">Wingman</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link docs" aria-current="page" href="#">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">
+              Changelog <span class="versao">v1.3.0</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><span class="compre-agora">Purchase Now</span></a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Fim da NavBar-->
+
+  <section class="space-lg bg-gradient overflow-hidden caixa-roxa">
+    <div class="container">
+      <div class="row align-items-center caixa-carrossel">
+        <div class="col-12 col-md-6 mb-5 md-md-0 position-relative">
+          <h1 class="titulo1">Build stunning websites and apps</h1>
+          <p class="conteudo1">Meet Wingman, a robust suite opf styled pages and components, powered by Bootstrap 4.
+            The ideal starting point for product landing pages, stylish web-apps and complete company websites.</p>
+          <a href="#" class="compre-agora2">Purchase Now</a>
+          <a href="#" class="explorar">Start exploring <span class="seta">></span>
+            <i class="icon-chevron-right"></i>
+          </a>
+        </div>
+        <!--Fim do Conteudo1-->
+        
+        <div class="col-12 col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide img-fluid" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/_images/_carousel/landing-1-hero.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/_images/_carousel/landing-2-hero.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/_images/_carousel/landing-3-hero.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/_images/_carousel/landing-4-hero.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/_images/_carousel/app-collection-list-hero-5.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--Fim do Carrosel-->
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Carrossel-->
+
+  <section class="boxes">
+    <div class="container">
+      <div class="row justify-content-center text-center intro">
+        <div class="col-12 col-md-9 col-lg-8">
+          <span class="conheca">MEET WINGMAN</span>
+          <h2 class="titulo2">Attractive from every angle</h2>
+          <span class="conteudo2">Wingman delivers a seamless user experience, offering visual consistency for your
+            brand, from landing to logged-in</span>
+        </div>
+      </div>
+    </div>
+    <!--Fim da Intro-->
+    <div class="container cartao">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="/_images/landing-9-hero.jpg" class="card-img-top" alt="landing">
+            <div class="card-body">
+              <h5 class="card-title">Landing Pages</h5>
+              <p class="card-text">Impress potential customers and introduce your product using Wingman’s diverse,
+                purpose-built landing pages</p>
+              <a class="link-explorar" href="#">Explore Landing Pages ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/_images/app-profile-social-hero.jpg" class="card-img-top" alt="apps">
+            <div class="card-body">
+              <h5 class="card-title">Apps Pages</h5>
+              <p class="card-text">A robust suite of styled app pages and flexible Bootstrap-based components makes
+                Wingman ideal for building Apps</p>
+              <a class="link-explorar" href="#">Explore App Pages ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="/_images/company-simple-hero.jpg" class="card-img-top" alt="inner">
+            <div class="card-body">
+              <h5 class="card-title">Inner Pages</h5>
+              <p class="card-text">Landing pages are just the beginning. Wingman includes a collection of detailed inner
+                pages to complete your online presence.</p>
+              <a class="link-explorar" href="#">Explore Inner Pages ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim dos Cartões-->
+
+  <section class="bg-white">
+    <div class="container">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-12 col-lg-5 text-md-left">
+          <span class="intro2">DESIGN FOR DEVELOPERS</span>
+          <h3 class="titulo3">Familiar, modern tooling</h3>
+          <p class="conteudo3">Wingman employs industry-standard development tools with an intuitive workflow designed
+            to get you up and
+            runnning faster.</p>
+          <a href="#" class="link-explorar">Explore Documentation ></a>
+        </div>
+        <div class="col-8 col-md-6 col-lg-4">
+          <img src="/_images/graphic-developer-group.svg" alt="developer_group" class=" img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Conteudo 3-->
+
+  <section>
+    <div class="container">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-12 col-md-5 order-md-2 mb-5 mb-md-0">
+          <span class="intro2">
+            DEVELOPED FOR DESIGNERS</span>
+          <h5 class="titulo4">Responsive, naturally</h5>
+          <p class="conteudo4">Built on the mobile-first Bootstrap 4 architecture. Wingman scales elegantly to suit all
+            screen sizes.</p>
+          <a href="#" class="link-explorar">Explore App Pages ></a>
+        </div>
+        <div class="col-12 col-md-5 order-md-1">
+          <a href="#">
+            <img src="/_images/graphic-intro-ipad.png" alt="ipad" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Conteudo (Paydar)-->
+
+  <section class="gradiente">
+    <div class="container">
+      <div class="row justify-content-center depoiment">
+        <div class="col-12 col-lg-10">
+          <div class="foto">
+            <img src="/_images/avatar-male-1.1.jpg" alt="myself" class="avatar avatar-lg">
+            <div>
+              <p class="depoimento-text">
+                “With Prof. Erik teachings, I was able to turn out a stunning template by cloning this website for my
+                classroom's exam in no time.”
+              </p>
+              <span class="sign">Bruno Marques, student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Depoimento-->
+
+  <section class="bg-gray">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <span class="intro5">FLEXIBLE & EXTENSIBLE</span>
+        <h2 class="titulo5">Bootstrap core + much more</h2>
+        <span class="conteudo5">Wingman features full coverage of Bootstrap's core components plus a suite of additional
+          time-saving
+          features</span>
+      </div>
+      <div class="row justify-content-around align-items-center">
+        <div class="col-12 col-md-6 col-lg-5 order-md-2">
+          <ul class="nav" id="myTab" role="tablist">
+            <li>
+              <a class="active card cartela shadow" id="tab-1" data-toggle="tab" href="#" role="tab"
+                aria-controls="home" aria-selected="true">
+                <div class="card-body">
+                  <h5 class="subCard">Modular & Multi-Purpose</h5>
+                  <p class="contCard">
+                    Create pages rich in functionality with Wingman's array of modular widgets - carefully designed for a wide range of purposes.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="cartela" id="tab-2" data-toggle="tab" href="#" role="tab" aria-controls="profile"
+                aria-selected="false">
+                <div class="card-body">
+                  <h5 class="subCard">Familiar Markup</h5>
+                  <p class="contCard">
+                    Based on the Bootstrap 4 codebase, Wingman's code is instantly familiar, easy to understand and a
+                    dream to extend.
+                  </p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="cartela shadow" id="tab-3" data-toggle="tab" href="#" role="tab" aria-controls="contact"
+                aria-selected="false">
+                <div class="card-body">
+                  <h5 class="subCard">Purposeful Plug-ins</h5>
+                  <p class="contCard">
+                    Elegantly extending Bootstrap's core functionality with Wizards, Touch Sliders, Interface Icons and
+                    more.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!--Fim dos Cartões Laterais-->
+        <div class="col-12 col-md-6 order-md-1">
+          <div>
+            <img src="/_images/graphic-intro-widgets.png" alt="widgets" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center espaco">
+        <div class="col-lg-4 col-md-5 detalhes">
+          <h6 class="peso">Detailed Overview</h6>
+          <p>Wingman's component index showcases the full breadth of features at a glance</p>
+          <a href="#" class="link-explorar espaco">Start exploring ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Card Lateral + Widget-->
+
+  <section class="gradiente p-0">
+    <div class="container space-lg">
+      <div class="row text-center">
+        <div class="col">
+          <h3 class="facaAgora">Start building feature-rich websites</h3>
+          <a href="#" class="compre-agora3">Purchase Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim do Site-->
+
+  <footer class="bg-darkgray text-light footer-long">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <img src="/_images/logo-white.svg" alt="logo" class="mb-4">
+          <p class="text-muted">
+            2022 SENAI
+            <br>
+            WebDesign Exam available
+            <br>
+            at Classroom G79981
+          </p>
+        </div>
+
+        <div class="col-12 col-md-9">
+          <span class="title-foot">A robust suite of styled components for Bootstrap 4</span>
+          <div class="row no-gutters">
+            <div class="col-6 col-lg-3">
+              <h6 class="topic-foot">Navigate</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Overview</a>
+                </li>
+                <li>
+                  <a href="#">Landing Pages</a>
+                </li>
+                <li>
+                  <a href="#">App Pages</a>
+                </li>
+                <li>
+                  <a href="#">Inner Pages</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <h6 class="topic-foot">Platform</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Mac OS & iOS</a>
+                </li>
+                <li>
+                  <a href="#">Android & Chrome OS</a>
+                </li>
+                <li>
+                  <a href="#">Windows</a>
+                </li>
+                <li>
+                  <a href="#">Linux</a>
+                </li>
+              </ul>
+            </div>
+            <!--end of col-->
+            <div class="col-6 col-lg-3">
+              <h6 class="topic-foot">Community</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">Forum</a>
+                </li>
+                <li>
+                  <a href="#">Knowledgebase</a>
+                </li>
+                <li>
+                  <a href="#">Hire an expert</a>
+                </li>
+                <li>
+                  <a href="#">FAQ</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <!--end of col-->
+            <div class="col-6 col-lg-3">
+              <h6 class="topic-foot">Company</h6>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#">About company</a>
+                </li>
+                <li>
+                  <a href="#">History</a>
+                </li>
+                <li>
+                  <a href="#">Team</a>
+                </li>
+                <li>
+                  <a href="#">Investment</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <!--Fim do FOOTER-->
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</html>
